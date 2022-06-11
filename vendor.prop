@@ -219,6 +219,9 @@ ro.config.dha_th_rate=2.3
 ro.config.sdha_apps_bg_max=64
 ro.config.sdha_apps_bg_min=8
 
+# Render
+debug.cpurend.vsync=false
+
 # USB
 sys.usb.mtp.batchcancel=1
 vendor.usb.diag.func.name=diag
