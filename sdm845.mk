@@ -245,6 +245,7 @@ PRODUCT_PACKAGES += \
     libOmxVdec \
     libOmxVenc \
     libstagefrighthw \
+    libstagefright_foundation-v33 \
     libstagefright_softomx_plugin.vendor
 
 PRODUCT_COPY_FILES += \
