@@ -149,6 +149,7 @@ persist.sys.fuse.passthrough.enable=true
 # Graphics
 debug.hwui.skia_atrace_enabled=false
 debug.hwui.use_hint_manager=true
+debug.sf.enable_gl_backpressure=0
 debug.sf.recomputecrop=0
 persist.sys.sf.color_mode=0
 persist.sys.sf.color_saturation=1.0
