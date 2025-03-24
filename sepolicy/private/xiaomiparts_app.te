@@ -29,3 +29,7 @@ get_prop(xiaomiparts_app, settingslib_prop)
 
 # Allow XiaomiParts to find mediaserver
 allow xiaomiparts_app mediaserver_service:service_manager { find };
+
+# Allow XiaomiParts to read specific system properties
+get_prop(xiaomiparts_app, system_prop)
+get_prop(xiaomiparts_app, exported_system_prop)
