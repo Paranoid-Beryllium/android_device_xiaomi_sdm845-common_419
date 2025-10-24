@@ -49,7 +49,7 @@ TARGET_KERNEL_CONFIG := \
     vendor/sdm845-perf_defconfig \
     vendor/xiaomi/sdm845-common.config
 
-TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm845
+TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm845_5.4
 
 # Platform
 TARGET_BOARD_PLATFORM := sdm845
