@@ -543,11 +543,11 @@ service vendor.port-bridge /system/vendor/bin/port-bridge
 service vendor.netmgrd /system/vendor/bin/netmgrd
     class main
 
-service vendor.sensors /vendor/bin/sscrpcd sensorspd
-    class early_hal
-    user system
-    group system wakelock
-    capabilities BLOCK_SUSPEND
+#service vendor.sensors /vendor/bin/sscrpcd sensorspd
+#    class early_hal
+#    user system
+#    group system wakelock
+#    capabilities BLOCK_SUSPEND
 
 service vendor.sensors.qti /vendor/bin/sensors.qti
     class core
