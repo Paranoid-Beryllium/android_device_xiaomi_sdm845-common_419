@@ -16,6 +16,9 @@ $(call inherit-product, hardware/qcom-caf/common/common.mk)
 
 PRODUCT_OTA_ENFORCE_VINTF_KERNEL_REQUIREMENTS := true
 
+# Shipping API
+PRODUCT_SHIPPING_API_LEVEL := 30
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
