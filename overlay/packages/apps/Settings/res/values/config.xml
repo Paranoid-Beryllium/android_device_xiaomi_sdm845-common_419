@@ -22,4 +22,6 @@
          have distinct intensity levels -->
     <integer name="config_vibration_supported_intensity_levels">3</integer>
 
+    <string name="maintainer_name" translatable="false">NotDheeraj06</string>
+    <string name="maintainer_telegram" translatable="false">https://t.me/NotDheeraj06</string>
 </resources>

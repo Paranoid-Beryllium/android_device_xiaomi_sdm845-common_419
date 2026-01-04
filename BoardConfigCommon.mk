@@ -52,10 +52,8 @@ TARGET_KERNEL_CONFIG := \
     vendor/sdm845-perf_defconfig \
     vendor/xiaomi/sdm845-common.config
 
+TARGET_KERNEL_CLANG_VERSION := r547379
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm845
-
-# Platform
-TARGET_BOARD_PLATFORM := sdm845
 
 # Audio
 TARGET_PROVIDES_AUDIO_EXTNS := true
