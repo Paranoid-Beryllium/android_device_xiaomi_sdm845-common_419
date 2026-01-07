@@ -156,8 +156,8 @@ PRODUCT_PACKAGES += \
 
 # Context Hub
 PRODUCT_PACKAGES += \
-    android.hardware.contexthub@1.0-impl.generic \
-    android.hardware.contexthub@1.0-service
+    android.hardware.contexthub@1.2-impl.generic \
+    android.hardware.contexthub@1.2-service
 
 # DebugFS
 PRODUCT_ENABLE_UFFD_GC := true
