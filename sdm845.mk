@@ -142,7 +142,6 @@ PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 
 # Device-specific settings
 PRODUCT_PACKAGES += \
-    XiaomiDolby \
     XiaomiParts
 
 # Display
@@ -198,6 +197,10 @@ PRODUCT_PACKAGES += \
 # Lineage Health
 PRODUCT_PACKAGES += \
     vendor.lineage.health-service.default
+
+# LunarisDolby
+PRODUCT_PACKAGES += \
+    LunarisDolby
 
 # Media
 PRODUCT_PACKAGES += \
