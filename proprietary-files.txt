@@ -94,7 +94,7 @@ vendor/bin/init.qti.chg_policy.sh
 vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc
 
 # CNE - from munch OS1.0.9.0.ULMMIXM
-vendor/app/CneApp/CneApp.apk;REQUIRED=CneApp.libvndfwk_detect_jni.qti_symlink|25243a7491e2c2d702ffd70dfbff57c0c14c0b37
+vendor/app/CneApp/CneApp.apk|25243a7491e2c2d702ffd70dfbff57c0c14c0b37
 vendor/bin/cnd|d6c37ea42f1df64283e6ce50408a1f7f64a56a1a
 vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml|578f3f8f56059bfdbef926bcc68d01c15e06951f
 vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml|1fb42c672a12b6660bdce3ea94e0c43719dd9de8
