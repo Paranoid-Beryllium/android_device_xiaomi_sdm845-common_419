@@ -24,6 +24,9 @@ namespace_imports = [
     'hardware/xiaomi',
     'vendor/qcom/opensource/commonsys-intf/display',
     'vendor/qcom/opensource/commonsys/display',
+    'vendor/qcom/common/system/display',
+    'vendor/qcom/common/vendor/display',
+    'vendor/qcom/common/vendor/display/4.19',
     'vendor/qcom/opensource/dataservices',
     'vendor/qcom/opensource/display',
 ]
